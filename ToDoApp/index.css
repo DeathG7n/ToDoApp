@@ -1,6 +1,11 @@
 body{
     text-align: center;
 }
+h3{
+    color: red;
+    text-align: left;
+    margin: 0;
+}
 div{
     margin: auto;
     border: 2px solid black;
@@ -8,7 +13,7 @@ div{
     width: 400px;
     height: 500px;
 }
-li{
+ol li{
    font-size: 20px;
    list-style: none;
    margin-left: -20px;
@@ -19,6 +24,10 @@ li{
    background-color: hotpink;
    margin-bottom: 5px;
 } 
+ul li{
+    margin-left: 1px;
+    text-align: left
+}
 input{
     background-color: white;
     width: 78%;
